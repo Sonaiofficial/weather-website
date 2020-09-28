@@ -1,0 +1,47 @@
+body{
+    color: purple;
+    font-family: 'Lucida Sans';
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0  16px;
+
+    display:flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+}
+
+h1{
+    font-size: 64px;
+}
+
+header a{
+    color: grey;
+    margin-right: 16px;
+    text-decoration: lawngreen;
+}
+
+.potrait{
+    width: 250px;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+} 
